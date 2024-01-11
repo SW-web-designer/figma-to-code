@@ -1,0 +1,30 @@
+این لیست رنگ هاست:
+:root {
+    --brand-primery-color: #4CAF4F;
+    --brand-secondary-color: #263238;
+    --brand-info-color: #2194F3;
+
+    --shade-s1-color: #43A046;
+    --shade-s2-color: #388E3B;
+    --shade-s3-color: #237D31;
+    --shade-s4-color: #1B5E1F;
+    --shade-s5-color: #103E13;
+
+    --tint-t1-color: #66BB69;
+    --tint-t2-color: #81C784;
+    --tint-t3-color: #A5D6A7;
+    --tint-t4-color: #C8E6C9;
+    --tint-t5-color: #E8F5E9;
+
+    --natural-white-color: #FFFFFF;
+    --natural-black-color: #000000;
+    --natural-sliver-color: #F5F7FA;
+    --natural-gray-blue-color: #ABBED1;
+    --natural-light-gray-color: #89939E;
+    --natural-gray-color: #717171;
+    --natural-dark-gray-color: #4D4D4D;
+    --natural-white-stroke-color: #ABBED1;
+}
+____________________________________________________
+یادتون باشه که اینا رو کپی پیست نکنین و حتا از روش هم که شده بنویسین.
+البته بهتره که همین نام ها رو برای رنگ ها انتخاب کنین تا توی پروژه به مشکل بر نخورین.
