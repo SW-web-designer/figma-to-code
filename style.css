@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --brand-primery-color: #4CAF4F;
+    --brand-secondary-color: #263238;
+    --brand-info-color: #2194F3;
+
+    --shade-s1-color: #43A046;
+    --shade-s2-color: #388E3B;
+    --shade-s3-color: #237D31;
+    --shade-s4-color: #1B5E1F;
+    --shade-s5-color: #103E13;
+
+    --tint-t1-color: #66BB69;
+    --tint-t2-color: #81C784;
+    --tint-t3-color: #A5D6A7;
+    --tint-t4-color: #C8E6C9;
+    --tint-t5-color: #E8F5E9;
+
+    --natural-white-color: #FFFFFF;
+    --natural-black-color: #000000;
+    --natural-sliver-color: #F5F7FA;
+    --natural-gray-blue-color: #ABBED1;
+    --natural-light-gray-color: #89939E;
+    --natural-gray-color: #717171;
+    --natural-dark-gray-color: #4D4D4D;
+    --natural-white-stroke-color: #ABBED1;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+body {
+    width: 100%;
+    height: 5.25rem !important;
+    font-family: "open sans";
+}
+
+.container {
+    width: 90rem;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+
+.header {
+    width: 100%;
+    height: 5.25rem;
+}
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.logo {
+    width: 9.625rem;
+    height: 1.5rem;
+}
+.menu {
+    display: flex;
+    width: 36.75rem;
+    height: 1.5rem;
+    justify-content: space-between;
+}
+.menu__item a {
+    font-size: 16px;
+    color: var(--natural-black-color) !important;
+    text-decoration: none;
+    font-weight: 500;
+}
+.login-section {
+    width: 11.375rem;
+    height: 2.5rem;
+    display: flex;
+}
+.login-btn {
+    background-color: var(--natural-sliver-color);
+    color: var(--brand-primery-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.6875rem;
+    height: 2.5rem;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "inter";
+}
+.signup-btn {
+    background-color: var(--brand-primery-color);
+    color: var(--natural-sliver-color);
+    border-radius: .45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.6875rem;
+    height: 2.5rem;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "inter";
+}
